@@ -9,7 +9,7 @@ favicon: /-/xypnox.github.io/spellcraft-starter/favicon.ico
 -- fastn.auto-import: xypnox.github.io/spellcraft/ds
 
 -- fastn.sitemap:
-;; Sitemap is also used to show the table of contents.
+;; Sitemap is used to show the table of contents.
 
 # Docs: /
 
@@ -18,12 +18,12 @@ favicon: /-/xypnox.github.io/spellcraft-starter/favicon.ico
   - Fifthtry: 
 
 - Components:
-  - Page: /
-  - DocPage: /
-  - Content Section: /
-  - Code: /
-  - Annotations: /
-  - Buttons: /
+  - Page: /sample
+  - DocPage: 
+  - Content Section: 
+  - Code: 
+  - Annotations: 
+  - Buttons: 
 
 - Overview:
 
