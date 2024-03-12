@@ -2,11 +2,14 @@
 
 -- fastn.package: xypnox.github.io/spellcraft-starter
 favicon: /-/xypnox.github.io/spellcraft-starter/favicon.ico
+-- fastn.dependency: fastn-community.github.io/design-system
+provided-via: xypnox.github.io/spellcraft/ds
 
 -- fastn.dependency: xypnox.github.io/spellcraft
 
 -- fastn.auto-import: xypnox.github.io/spellcraft/lib
 -- fastn.auto-import: xypnox.github.io/spellcraft/ds
+
 
 -- fastn.sitemap:
 ;; Sitemap is used to show the table of contents.
