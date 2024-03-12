@@ -5,10 +5,20 @@
       "checksum": "D8B894168E4507AB5CE16D184631E473B7D8161A7B57343B16D3C77DDBD2DAAA",
       "size": 766
     },
+    "common/index.ftd": {
+      "name": "common/index.ftd",
+      "checksum": "FD50853BD0F89C0E8F31C342E5CEC1F414D8F12D58C1F0FF941CAE6A7D568345",
+      "size": 493
+    },
     "index.ftd": {
       "name": "index.ftd",
       "checksum": "F62E61EC92FCA75A3332BAE15908A7A4ADAF0648E49B97C4F58F36181DB81C56",
       "size": 89
+    },
+    "reference.ftd": {
+      "name": "reference.ftd",
+      "checksum": "781E9B462F17D9B582C64B3CE4C8F050E8F104F7B9A7844F0B27C98EF8E8D9E1",
+      "size": 3240
     },
     "sample.ftd": {
       "name": "sample.ftd",
@@ -17,5 +27,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/spellcraft-starter/zip/refs/heads/main",
-  "checksum": "93D36313B3B1FBC6B42449796F7897C75A71C883846900DAFD0570FB6D7A8439"
+  "checksum": "435B9474C03ABBB400016B7C967A20CCDC6D08266B6A0899B4BA6ABBABB0DA71"
 }
