@@ -1,0 +1,48 @@
+-- import: fastn
+
+-- fastn.package: xypnox.github.io/spellcraft-starter
+favicon: /-/xypnox.github.io/spellcraft-starter/favicon.ico
+
+-- fastn.dependency: xypnox.github.io/spellcraft
+
+-- fastn.auto-import: xypnox.github.io/spellcraft/lib
+-- fastn.auto-import: xypnox.github.io/spellcraft/ds
+
+-- fastn.sitemap:
+;; Sitemap is also used to show the table of contents.
+
+# Docs: /
+
+- Getting started: 
+  - Quickstart: 
+  - Fifthtry: 
+
+- Components:
+  - Page: /
+  - DocPage: /
+  - Content Section: /
+  - Code: /
+  - Annotations: /
+  - Buttons: /
+
+- Overview:
+
+# Example: 
+
+- Getting started: 
+  - Quickstart:
+  - Development:
+  - Development:
+    - react:
+    - NodJs:
+    - Java:
+
+- Large Page with Large Title:
+
+# Contribute: 
+
+- Github: 
+- Code of Conduct: 
+
+
+# Reference: 
