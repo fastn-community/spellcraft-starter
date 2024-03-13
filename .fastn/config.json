@@ -1420,10 +1420,40 @@
           "checksum": "17AAAE1EF7311E1242DE290690E19CF70BBFFAD2D65380F60C4F0E8086BCDCE4",
           "size": 220
         },
+        "assets/fastn-logo-dark.svg": {
+          "name": "assets/fastn-logo-dark.svg",
+          "checksum": "B82980A0566A43453849F1E293D6E724280ED7976B0EDFC30D343CD5D10D2227",
+          "size": 5205
+        },
+        "assets/fastn-logo.svg": {
+          "name": "assets/fastn-logo.svg",
+          "checksum": "A2EE52458DAB43F3A6D8A279654F307E71505AA985CAD3991EDC4D4ED8CCBF49",
+          "size": 5205
+        },
+        "assets/ftd-logo-dark.svg": {
+          "name": "assets/ftd-logo-dark.svg",
+          "checksum": "0E0E929D4D8045018D9CC8E8CF3A2A959FFAB80BD35228469DE75FB9CA3E4655",
+          "size": 3771
+        },
+        "assets/ftd-logo.svg": {
+          "name": "assets/ftd-logo.svg",
+          "checksum": "31BEEA3010E27F5A21A4A0EDAAF3D89D3677FEA73424064EE532D0A42B6251A4",
+          "size": 3771
+        },
         "assets/gradient.svg": {
           "name": "assets/gradient.svg",
           "checksum": "DC756B7B1A502111AD9C020DEC05C757F146F7C4BD72572686C19D88A0DA747C",
           "size": 8026
+        },
+        "assets/hostn-logo-dark.svg": {
+          "name": "assets/hostn-logo-dark.svg",
+          "checksum": "E13746A1F70B9EC17384C4FD9FE29D5D060E757177EAEB0AA2B5BB13974117A7",
+          "size": 6247
+        },
+        "assets/hostn-logo.svg": {
+          "name": "assets/hostn-logo.svg",
+          "checksum": "06C2FBD1DC517AFD72487E5FD70AB51DB51D0AD6FC8C8D0DAF0E22A890BE2041",
+          "size": 6254
         },
         "assets/hubspot-dark.svg": {
           "name": "assets/hubspot-dark.svg",
@@ -1510,6 +1540,11 @@
           "checksum": "5703CD3F57AA0CDC3CFA4E8C26E460713E6DF08D1E6D5D62127B2C2C408C7151",
           "size": 3878919
         },
+        "assets/yc-dark.svg": {
+          "name": "assets/yc-dark.svg",
+          "checksum": "C3A317E023FB0BFFF68EC5DCEDF035F986BEDB6A91F623E6B7A79C821D94BC6A",
+          "size": 13751
+        },
         "assets/yc.svg": {
           "name": "assets/yc.svg",
           "checksum": "7EF1BEC586D66543FD7A37BDDE0B27F6BF893825D0A9986D5E4AD57C0E16F99E",
@@ -1575,20 +1610,15 @@
           "checksum": "DB4B957FABA9B5721ADA2B9BC8A506DCD8FFFE2DDE114A2BB53D5AB4ADB8DD19",
           "size": 2018
         },
-        "demos/dropbase.ftd": {
-          "name": "demos/dropbase.ftd",
-          "checksum": "51622CB449D4AB2760D4A2E659A0ED3F34D165B0E87A48F26CE9DC848C82ECF8",
-          "size": 17433
-        },
         "demos/ft-old.ftd": {
           "name": "demos/ft-old.ftd",
-          "checksum": "43588446BC2B7830F901B3E5B54BFBF918E2B41016F0B57D16F7E07A99D9BE66",
-          "size": 3105
+          "checksum": "8EF5BE3A8B97EFFE4A229FBCEC464B76A8F56DCE21862B08A2F96E71DB9E053F",
+          "size": 2999
         },
         "demos/index.ftd": {
           "name": "demos/index.ftd",
-          "checksum": "6B1460249DB7DDA46B65EF19972D0B7CCB1EA39F81CE8598BBDFAE09442DB297",
-          "size": 299
+          "checksum": "FDAA8B0D89367B84164DE0FFE5E80A90020E037058BFEA738D26CD7D9F10A4D5",
+          "size": 502
         },
         "favicon.ico": {
           "name": "favicon.ico",
@@ -1657,8 +1687,13 @@
         },
         "index.ftd": {
           "name": "index.ftd",
-          "checksum": "16FC6E4E770DC80C5B03E41CB481D1EDD0EEBAFEB6E0879AFADA32FABCF4CC18",
-          "size": 4800
+          "checksum": "83128E61F2ED33F7855561F17F4EA72910401324EF8416A8437CB8C740C306D5",
+          "size": 4885
+        },
+        "record.ftd": {
+          "name": "record.ftd",
+          "checksum": "9EB82634CCE4C7B004510FBC5C65310AF12584C1BEEA481F6B2C4B88AAF1F100",
+          "size": 291
         },
         "slide.ftd": {
           "name": "slide.ftd",
@@ -1671,8 +1706,8 @@
           "size": 10641
         }
       },
-      "zip_url": "https://github.com/fastn-community/design-system/archive/ff535e17e70a17d7c520fb28218d05afea4be2a4.zip",
-      "checksum": "056F85A7B8FFA7B8E55AACE563B04ABCA3618D66BD4BE8E30C47AC7AAF6051A2"
+      "zip_url": "https://github.com/fastn-community/design-system/archive/d4836a6adc1e478510a1dc867d6eac97b001b9ac.zip",
+      "checksum": "B0EF8774ED42B8F944A90166A1EA0E3840CD79F46944A8F49D2F6F1490D8AE9A"
     },
     "fastn-community.github.io/doc-site": {
       "files": {
@@ -7057,13 +7092,13 @@
       "files": {
         "FASTN.ftd": {
           "name": "FASTN.ftd",
-          "checksum": "1F6D89F3A8E9323068B0B5FA4882790F04780CC02D8C1136199CCDCE385A4EEA",
-          "size": 1454
+          "checksum": "5D31622D6C1623E5C849D56BD96C473BC6468D7ED5944AFF00D2D0AEC23AE8F3",
+          "size": 1479
         },
         "README.md": {
           "name": "README.md",
-          "checksum": "44F6AA44C428360D0E7D1B7278323C9E4507B8276AD2BF82635D559B5EFEFCCC",
-          "size": 55
+          "checksum": "89830884830AB58DFC722FB8A26EE2EFC76A1DCB9BBC20B52346402D4C103A7A",
+          "size": 206
         },
         "_config.yml": {
           "name": "_config.yml",
@@ -7074,6 +7109,11 @@
           "name": "api-docs/getting-started.ftd",
           "checksum": "92EBD298D43B86239DBED448C9BA3367D971CF8DF41DE999F3ACDED333D123E4",
           "size": 292
+        },
+        "api-docs/large-code.ftd": {
+          "name": "api-docs/large-code.ftd",
+          "checksum": "4DA237BA99C2624885C8A7BE9BDD3BC4D3DE0FFBFECCA285EB54E79497C62060",
+          "size": 10332
         },
         "api-docs/large-doc.ftd": {
           "name": "api-docs/large-doc.ftd",
@@ -7147,13 +7187,23 @@
         },
         "components/code.ftd": {
           "name": "components/code.ftd",
-          "checksum": "C7BA5F841CB28B7A819E6E9B5E7108E83A53AACDC32F4D1FD9EE37164DF52CBC",
-          "size": 4219
+          "checksum": "454CE5A79734ED144475776A1F1BF48B8F86906CD10FE54AC432E0CC31B89989",
+          "size": 4579
         },
         "components/doc-page.ftd": {
           "name": "components/doc-page.ftd",
-          "checksum": "DDBDF1BF98434AC18AE4136AE16D1B3A53D2013F5906B03235C176C1306AEE4C",
-          "size": 445
+          "checksum": "75CF486CBC4BFB34C5E8209A319E2B13ABC7B9C0562576AA32619B015527B2DA",
+          "size": 856
+        },
+        "components/doc-section.ftd": {
+          "name": "components/doc-section.ftd",
+          "checksum": "F56C2C7C03A5CCA8FD0F4FE7BF77FAFBB3E8AAA651C90352208A5EE5E4EA9AB5",
+          "size": 1073
+        },
+        "components/embed.ftd": {
+          "name": "components/embed.ftd",
+          "checksum": "7A4BBEB93BF634F6D70FB78F4C60F9198721155F6B6E1F5A298945BE71FEC48E",
+          "size": 298
         },
         "components/header.ftd": {
           "name": "components/header.ftd",
@@ -7162,13 +7212,8 @@
         },
         "components/page.ftd": {
           "name": "components/page.ftd",
-          "checksum": "EA9683E0B71936E094C1D2A3EAA73C07083D961B28F95FE957D54ED37F18310E",
-          "size": 5195
-        },
-        "components/section.ftd": {
-          "name": "components/section.ftd",
-          "checksum": "7BF828B68CB71E399EC155470C5B1D9C8EBCE77267363C2CF9A5FCCB1A37B1DC",
-          "size": 928
+          "checksum": "ECFEDACE9B6CD53B56490A22E7ADBE3352361EF6864019F11C44890E65DF7374",
+          "size": 5310
         },
         "components/typography.ftd": {
           "name": "components/typography.ftd",
@@ -7177,17 +7222,17 @@
         },
         "contributing/code-of-conduct.ftd": {
           "name": "contributing/code-of-conduct.ftd",
-          "checksum": "9CEBF8A31A4FEC4E285D980A305C0EF00259D3C11B6BD8755F499AA8B0480301",
+          "checksum": "5BC9F58E4820CA0649162377E7A973A53FFA8BC4E224A223CEA375C2977AB216",
           "size": 240
         },
         "contributing/github.ftd": {
           "name": "contributing/github.ftd",
-          "checksum": "1019F7C79436F32CE699278F4B8077DE15F035FAD3AD670529CEC37E9F1C1C54",
+          "checksum": "4888C99BF297D12E3D30F1CA003B5AE0667E03D39CC53D5AE60FF17425FBF038",
           "size": 222
         },
         "contributing/guide.ftd": {
           "name": "contributing/guide.ftd",
-          "checksum": "57E40E08DCEC9E95CD0146A6914742CF45B37AFA8EABD73032891CC51772B175",
+          "checksum": "41ABC9BB52097120BFED5E8F6C48507975BD6E4FF7EDEB4538F858386CAA3176",
           "size": 225
         },
         "docs.ftd": {
@@ -7197,8 +7242,8 @@
         },
         "docs/components/annotations.ftd": {
           "name": "docs/components/annotations.ftd",
-          "checksum": "592A91C380F7A9BA4F42CDCBBBF8E2C9F200130079CB79CE01792A4A8CF1BD08",
-          "size": 929
+          "checksum": "D5E6F3358E185B07EAA99868654E5C03309DDED17CA93364CB30AFC13CA02631",
+          "size": 1597
         },
         "docs/components/buttons.ftd": {
           "name": "docs/components/buttons.ftd",
@@ -7222,12 +7267,12 @@
         },
         "docs/components/page.ftd": {
           "name": "docs/components/page.ftd",
-          "checksum": "E33DE82B718D0219A8F00694BD04EDAECE130E68A1AE823C3B6E63E487CAF2EF",
-          "size": 642
+          "checksum": "CD56BBEDF42755F51D90E63CF1060DB96AD99981D5C5DCEBF3ECF46F374C2841",
+          "size": 1539
         },
         "docs/components/section.ftd": {
           "name": "docs/components/section.ftd",
-          "checksum": "F176EB4752A81F37E5D88E7389D441FAE6076FF91B07D4AE676A381C8D1FB522",
+          "checksum": "647A28E5A35F88585B073167EFDD09E34E4A7DB9704A8922968435C5E7490C7C",
           "size": 711
         },
         "docs/fifthtry.ftd": {
@@ -7237,8 +7282,8 @@
         },
         "docs/quickstart.ftd": {
           "name": "docs/quickstart.ftd",
-          "checksum": "874D3AC6DB62BB35F8C8710060301342F9A700CE34A22B2746E213F828AEF84F",
-          "size": 382
+          "checksum": "7C1DC34722B8309EA7E6C15CE9746DA47635984A75CCF7DD56ECB8DD864B1D35",
+          "size": 2881
         },
         "ds.ftd": {
           "name": "ds.ftd",
@@ -7252,17 +7297,17 @@
         },
         "index.ftd": {
           "name": "index.ftd",
-          "checksum": "1D2ABC007D251A4AEF1875F866179EF704745129218ADB1FE1A161664B57CEF3",
+          "checksum": "6E7789796BF661F88AB245BBCA91737B3CF1FBDD87EB37A0A112B4C99B536EE4",
           "size": 1771
         },
         "lib.ftd": {
           "name": "lib.ftd",
-          "checksum": "7163162CF95FA0F3FEE7560D2CB3862B69B0BA388076D3CCBE55C5E5534A6B04",
-          "size": 704
+          "checksum": "629C96EB105DD376E1F4DE6D43C448098396BC5D2A1D7F43111639747AE05FDD",
+          "size": 784
         },
         "reference.ftd": {
           "name": "reference.ftd",
-          "checksum": "781E9B462F17D9B582C64B3CE4C8F050E8F104F7B9A7844F0B27C98EF8E8D9E1",
+          "checksum": "950B2C65CE8C7FB1F3CC1B8F6F1A86FFEA436F5C9F15C94BE302480C90AD343D",
           "size": 3240
         },
         "themecolors.ftd": {
@@ -7277,7 +7322,7 @@
         }
       },
       "zip_url": "https://codeload.github.com/xypnox/spellcraft/zip/refs/heads/main",
-      "checksum": "416F86A3C58F542644E22D7E3EF423A9B4CA853AB635923636CC58AE9E1F2786"
+      "checksum": "7050901F3D4A3FEF7578570B5973167C1495E99D59A19FAFE97505C6E15AF857"
     }
   }
 }

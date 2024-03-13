@@ -1,0 +1,8 @@
+-- import: xypnox.github.io/spellcraft/lib as _
+export: search-button, icon-button, page, doc-page, section, header, note, info, tip, annotation, code, code-preview, video
+
+-- import: xypnox.github.io/spellcraft-starter/components/annotations as _
+export: warning, danger
+
+-- import: xypnox.github.io/spellcraft-starter/components/typography as _
+export: heading

@@ -1,0 +1,80 @@
+-- import: fastn-community.github.io/svg-icons/phosphor as ph
+
+-- component annotation:
+caption type:
+body text:
+ftd.color border:
+ftd.color color:
+optional string icon:
+
+
+-- ds.row:
+align-content: left
+spacing: $ds.spaces.horizontal-gap.medium
+
+	-- ds.row:
+	height.fixed.em: 4
+	width.fixed.px: 4
+	border: $ds.borders.left.medium
+	border-color: $annotation.border
+	
+	-- end: ds.row
+
+	-- ds.column:
+	align-content: left
+	inset: $ds.spaces.inset-wide.medium
+	spacing: $ds.spaces.horizontal-gap.extra-small
+	background.solid: $inherited.colors.background.step-1
+
+    -- ds.row:
+    spacing: $ds.spaces.horizontal-gap.extra-small
+    width: hug-content
+    color: $annotation.color
+	
+      -- ph.regular: $annotation.icon
+      if: { annotation.icon }
+      size: 20
+    
+      -- ds.fine-print: $annotation.type
+      color: $annotation.color
+
+    -- end: ds.row
+		
+		-- ds.copy-regular: $annotation.text
+	-- end: ds.column
+
+-- end: ds.row
+
+-- end: annotation
+
+
+
+
+
+-- component warning:
+caption or body text:
+
+-- annotation: Warning
+border: $inherited.colors.warning.border
+color: $inherited.colors.warning.text
+icon: seal-warning
+
+$warning.text
+
+-- end: annotation
+
+-- end: warning
+
+
+-- component danger:
+caption or body text:
+
+-- annotation: Danger
+border: $inherited.colors.error.border
+color: $inherited.colors.error.text
+icon: shield-warning
+
+$danger.text
+
+-- end: annotation
+-- end: danger

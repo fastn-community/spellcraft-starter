@@ -1,18 +1,27 @@
 -- import: fastn
 
+;; The name of our package in terms of github.io
 -- fastn.package: xypnox.github.io/spellcraft-starter
 favicon: /-/xypnox.github.io/spellcraft-starter/favicon.ico
+
+;; We extend the design system to include the components we need
+;; Most of the components and elements remain the same
 -- fastn.dependency: fastn-community.github.io/design-system
 provided-via: xypnox.github.io/spellcraft/ds
 
+-- fastn.dependency: fastn-community.github.io/svg-icons
+
 -- fastn.dependency: xypnox.github.io/spellcraft
 
--- fastn.auto-import: xypnox.github.io/spellcraft/lib
+;; We use the extended design system as 'ds'
 -- fastn.auto-import: xypnox.github.io/spellcraft/ds
 
+;; Use internal 'lib' to extend the components of the starter
+-- fastn.auto-import: xypnox.github.io/spellcraft-starter/lib
 
--- fastn.sitemap:
+
 ;; Sitemap is used to show the table of contents.
+-- fastn.sitemap:
 
 # Docs: /
 
@@ -48,4 +57,4 @@ provided-via: xypnox.github.io/spellcraft/ds
 - Code of Conduct: 
 
 
-# Reference: 
+# Reference: /reference
