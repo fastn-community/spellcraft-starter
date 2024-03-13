@@ -2,8 +2,8 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "98FBC1CC2D38FA1D3087E6DBF3F7B15F8FC899E3912DD495868CA8DFC30BCCD4",
-      "size": 873
+      "checksum": "BED07655D322A66593AED459813C0338328D99CE316BF5423ABC7D5E49A153E7",
+      "size": 1227
     },
     "README.md": {
       "name": "README.md",
@@ -15,14 +15,29 @@
       "checksum": "41A9970DEC451165DBA15560EB80A6B4B96A42650C141326AAB0FA63B2579228",
       "size": 495
     },
+    "components/annotations.ftd": {
+      "name": "components/annotations.ftd",
+      "checksum": "6DFCCB736469C45FF1F2A3D12A26DE816F26315CA3B3C1C9424BCA47746920E6",
+      "size": 1393
+    },
+    "components/typography.ftd": {
+      "name": "components/typography.ftd",
+      "checksum": "D0289FCE5949758286B6CF53739BCEE3B10F449F4ACA08054B35B5638C6BE1FA",
+      "size": 90
+    },
     "index.ftd": {
       "name": "index.ftd",
       "checksum": "F62E61EC92FCA75A3332BAE15908A7A4ADAF0648E49B97C4F58F36181DB81C56",
       "size": 89
     },
+    "lib.ftd": {
+      "name": "lib.ftd",
+      "checksum": "20BC33C9AAB07B55B9FD8B19C71CEA637A4210A74406D2549DFBF02522B011C6",
+      "size": 363
+    },
     "reference.ftd": {
       "name": "reference.ftd",
-      "checksum": "781E9B462F17D9B582C64B3CE4C8F050E8F104F7B9A7844F0B27C98EF8E8D9E1",
+      "checksum": "950B2C65CE8C7FB1F3CC1B8F6F1A86FFEA436F5C9F15C94BE302480C90AD343D",
       "size": 3240
     },
     "sample.ftd": {
@@ -32,5 +47,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/xypnox/spellcraft-starter/zip/refs/heads/main",
-  "checksum": "67FAAC2B3E53AC48B301BA140CCD11C9381F09D9CF7B8F7DE07C828C054E17CC"
+  "checksum": "790D219C9EA69D4A8B2DBC5445CD2EDB7595E5384762A26266CBAFFB2270F415"
 }

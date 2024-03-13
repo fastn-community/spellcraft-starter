@@ -874,8 +874,8 @@ td {
 	.__jc-503 { justify-content: start; }
 	.__ali-504 { align-items: start; }
 	.__g-505 { gap: 16px; }
-	.__rl-506 {  font-family: fastn-community-github-io-roboto-font-Roboto; letter-spacing: 0px; font-size: 32px; font-weight: 600; line-height: 44px; }
-	body.mobile .__rl-506 {  font-family: fastn-community-github-io-roboto-font-Roboto; letter-spacing: 0px; font-size: 32px; font-weight: 600; line-height: 44px; }
+	.__rl-506 {  font-family: fastn-community-github-io-roboto-font-Roboto; letter-spacing: 0px; font-size: 52px; font-weight: 700; line-height: 60px; }
+	body.mobile .__rl-506 {  font-family: fastn-community-github-io-roboto-font-Roboto; letter-spacing: 0px; font-size: 52px; font-weight: 700; line-height: 60px; }
 	.__w-507 { width: fit-content; }
 	.__c-509 { color: #1A1927 !important; }
 	body.dark .__c-509 { color: #D5D5EF !important; }
@@ -2568,10 +2568,10 @@ font-family: fifthtry-github-io-inter-font-Inter }
   let __fastn_super_package_name__ = __fastn_package_name__;
   __fastn_package_name__ = "xypnox_github_io_spellcraft_starter";
   try {
-    let parenti0 = xypnox_github_io_spellcraft_lib__page(parent, inherited, {
-      title: "Spellcraft Starter",
+    let parenti0 = xypnox_github_io_spellcraft_starter_lib__page(parent, inherited, {
+      captionTitle: "Spellcraft Starter",
       wrapper: fastn.mutableList([function (root, inherited) {
-        let rooti0 = xypnox_github_io_spellcraft_lib__heading(root, inherited, {
+        let rooti0 = xypnox_github_io_spellcraft_starter_lib__heading(root, inherited, {
           title: "Start with spellcraft"
         });
       }
@@ -5792,7 +5792,7 @@ fastn_utils.createNestedObject(global, "xypnox_github_io_spellcraft_common__site
     let record = fastn.recordInstance({
     });
     record.set("title", "Reference");
-    record.set("url", null);
+    record.set("url", "reference/");
     record.set("description", null);
     record.set("path", null);
     record.set("number", null);
@@ -6044,6 +6044,8 @@ let xypnox_github_io_spellcraft_components_page__page = function (parent, inheri
   __fastn_package_name__ = "xypnox_github_io_spellcraft_starter";
   try {
     let __args__ = {
+      title: null,
+      image: null,
       site_logo: global.xypnox_github_io_spellcraft_common__site_logo,
       site_url: global.xypnox_github_io_spellcraft_common__site_url,
       site_name: global.xypnox_github_io_spellcraft_common__site_name,
@@ -6062,7 +6064,18 @@ let xypnox_github_io_spellcraft_components_page__page = function (parent, inheri
     inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
     __args__ = fastn_utils.getArgs(__args__, args);
     let parenti0 = xypnox_github_io_spellcraft_ds__page(parent, inherited, {
-      title: __args__.title,
+      title: fastn.formula([__args__.title,
+      __args__.title,
+      __args__.captionTitle], function () {
+        if (function () {
+          return (fastn_utils.getStaticValue(__args__.title) == null);
+        }()) {
+          return __args__.title;
+        } else {
+          return __args__.captionTitle;
+        }
+      }
+      ),
       content: fastn.mutableList([function (root, inherited) {
         let rooti0 = xypnox_github_io_spellcraft_ds__section_column(root, inherited, {
           content: fastn.mutableList([function (root, inherited) {
@@ -6282,23 +6295,23 @@ let xypnox_github_io_spellcraft_components_page__page = function (parent, inheri
   }
 }
 global["xypnox_github_io_spellcraft_components_page__page"] = xypnox_github_io_spellcraft_components_page__page;
-let fastn_community_github_io_design_system_typography__heading_medium = function (parent, inherited, args)
+let fastn_community_github_io_design_system_typography__heading_hero = function (parent, inherited, args)
 {
   let __fastn_super_package_name__ = __fastn_package_name__;
   __fastn_package_name__ = "xypnox_github_io_spellcraft_starter";
   try {
     let __args__ = {
       width: fastn_dom.Resizing.HugContent,
+      color: global.xypnox_github_io_spellcraft_ds__colors.get("text_strong"),
       align: 1,
       margin: null,
-      color: global.xypnox_github_io_spellcraft_ds__colors.get("text_strong"),
       link: null,
       style: fastn.mutableList([]),
     };
     inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
     __args__ = fastn_utils.getArgs(__args__, args);
     let parenti0 = fastn_dom.createKernel(parent, fastn_dom.ElementKind.Text);
-    parenti0.setProperty(fastn_dom.PropertyKind.Role, global.xypnox_github_io_spellcraft_ds__types.get("heading_medium"), inherited);
+    parenti0.setProperty(fastn_dom.PropertyKind.Role, global.xypnox_github_io_spellcraft_ds__types.get("heading_hero"), inherited);
     parenti0.setProperty(fastn_dom.PropertyKind.StringValue, __args__.text, inherited);
     parenti0.setProperty(fastn_dom.PropertyKind.Width, __args__.width, inherited);
     parenti0.setProperty(fastn_dom.PropertyKind.MarginBottom, fastn.formula([__args__.margin], function () {
@@ -6359,8 +6372,8 @@ let fastn_community_github_io_design_system_typography__heading_medium = functio
     __fastn_package_name__ = __fastn_super_package_name__;
   }
 }
-global["fastn_community_github_io_design_system_typography__heading_medium"] = fastn_community_github_io_design_system_typography__heading_medium;
-let xypnox_github_io_spellcraft_components_typography__heading = function (parent, inherited, args)
+global["fastn_community_github_io_design_system_typography__heading_hero"] = fastn_community_github_io_design_system_typography__heading_hero;
+let xypnox_github_io_spellcraft_starter_components_typography__heading = function (parent, inherited, args)
 {
   let __fastn_super_package_name__ = __fastn_package_name__;
   __fastn_package_name__ = "xypnox_github_io_spellcraft_starter";
@@ -6369,7 +6382,7 @@ let xypnox_github_io_spellcraft_components_typography__heading = function (paren
     };
     inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
     __args__ = fastn_utils.getArgs(__args__, args);
-    let parenti0 = xypnox_github_io_spellcraft_ds__heading_medium(parent, inherited, {
+    let parenti0 = xypnox_github_io_spellcraft_ds__heading_hero(parent, inherited, {
       text: __args__.title
     });
     return parenti0;
@@ -6377,7 +6390,7 @@ let xypnox_github_io_spellcraft_components_typography__heading = function (paren
     __fastn_package_name__ = __fastn_super_package_name__;
   }
 }
-global["xypnox_github_io_spellcraft_components_typography__heading"] = xypnox_github_io_spellcraft_components_typography__heading;
+global["xypnox_github_io_spellcraft_starter_components_typography__heading"] = xypnox_github_io_spellcraft_starter_components_typography__heading;
 let xypnox_github_io_spellcraft_ds__flush = global["fastn_community_github_io_design_system_foundation_elements_page__flush"];
 global["xypnox_github_io_spellcraft_ds__flush"] = xypnox_github_io_spellcraft_ds__flush;
 let fastn_community_github_io_design_system__flush = global["fastn_community_github_io_design_system_foundation_elements_page__flush"];
@@ -6422,14 +6435,16 @@ let xypnox_github_io_spellcraft_ds__page = global["fastn_community_github_io_des
 global["xypnox_github_io_spellcraft_ds__page"] = xypnox_github_io_spellcraft_ds__page;
 let fastn_community_github_io_design_system__page = global["fastn_community_github_io_design_system_foundation_elements_page__page"];
 global["fastn_community_github_io_design_system__page"] = fastn_community_github_io_design_system__page;
+let xypnox_github_io_spellcraft_starter_lib__page = global["xypnox_github_io_spellcraft_components_page__page"];
+global["xypnox_github_io_spellcraft_starter_lib__page"] = xypnox_github_io_spellcraft_starter_lib__page;
 let xypnox_github_io_spellcraft_lib__page = global["xypnox_github_io_spellcraft_components_page__page"];
 global["xypnox_github_io_spellcraft_lib__page"] = xypnox_github_io_spellcraft_lib__page;
-let xypnox_github_io_spellcraft_ds__heading_medium = global["fastn_community_github_io_design_system_typography__heading_medium"];
-global["xypnox_github_io_spellcraft_ds__heading_medium"] = xypnox_github_io_spellcraft_ds__heading_medium;
-let fastn_community_github_io_design_system__heading_medium = global["fastn_community_github_io_design_system_typography__heading_medium"];
-global["fastn_community_github_io_design_system__heading_medium"] = fastn_community_github_io_design_system__heading_medium;
-let xypnox_github_io_spellcraft_lib__heading = global["xypnox_github_io_spellcraft_components_typography__heading"];
-global["xypnox_github_io_spellcraft_lib__heading"] = xypnox_github_io_spellcraft_lib__heading;
+let xypnox_github_io_spellcraft_ds__heading_hero = global["fastn_community_github_io_design_system_typography__heading_hero"];
+global["xypnox_github_io_spellcraft_ds__heading_hero"] = xypnox_github_io_spellcraft_ds__heading_hero;
+let fastn_community_github_io_design_system__heading_hero = global["fastn_community_github_io_design_system_typography__heading_hero"];
+global["fastn_community_github_io_design_system__heading_hero"] = fastn_community_github_io_design_system__heading_hero;
+let xypnox_github_io_spellcraft_starter_lib__heading = global["xypnox_github_io_spellcraft_starter_components_typography__heading"];
+global["xypnox_github_io_spellcraft_starter_lib__heading"] = xypnox_github_io_spellcraft_starter_lib__heading;
 fastn_dom.codeData.availableThemes["coldark-theme.dark"] = "code-theme-9A3284FD117DFF7CFD432FF860A5E14169FA592BC3DA4F5E8A6975143F5EA07F.css";
 fastn_dom.codeData.availableThemes["coldark-theme.light"] = "code-theme-99CD7B013C96C4632F0AEA39AC265387B814AE85A7D33666A4AE4BEFF59016D0.css";
 fastn_dom.codeData.availableThemes["coy-theme"] = "code-theme-B3AEA322EADEDA61F0E219845A0E9C8E73F6345E49362B46E6F52CEE40471248.css";

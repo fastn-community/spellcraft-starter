@@ -2584,8 +2584,8 @@ font-family: fifthtry-github-io-inter-font-Inter }
   let __fastn_super_package_name__ = __fastn_package_name__;
   __fastn_package_name__ = "xypnox_github_io_spellcraft_starter";
   try {
-    let parenti0 = xypnox_github_io_spellcraft_lib__page(parent, inherited, {
-      title: "Sample",
+    let parenti0 = xypnox_github_io_spellcraft_starter_lib__page(parent, inherited, {
+      captionTitle: "Sample",
       wrapper: fastn.mutableList([function (root, inherited) {
         let rooti0 = xypnox_github_io_spellcraft_ds__copy_regular(root, inherited, {
           text: "This is a regular copy"
@@ -5808,7 +5808,7 @@ fastn_utils.createNestedObject(global, "xypnox_github_io_spellcraft_common__site
     let record = fastn.recordInstance({
     });
     record.set("title", "Reference");
-    record.set("url", null);
+    record.set("url", "reference/");
     record.set("description", null);
     record.set("path", null);
     record.set("number", null);
@@ -6078,6 +6078,8 @@ let xypnox_github_io_spellcraft_components_page__page = function (parent, inheri
   __fastn_package_name__ = "xypnox_github_io_spellcraft_starter";
   try {
     let __args__ = {
+      title: null,
+      image: null,
       site_logo: global.xypnox_github_io_spellcraft_common__site_logo,
       site_url: global.xypnox_github_io_spellcraft_common__site_url,
       site_name: global.xypnox_github_io_spellcraft_common__site_name,
@@ -6096,7 +6098,18 @@ let xypnox_github_io_spellcraft_components_page__page = function (parent, inheri
     inherited = fastn_utils.getInheritedValues(__args__, inherited, args);
     __args__ = fastn_utils.getArgs(__args__, args);
     let parenti0 = xypnox_github_io_spellcraft_ds__page(parent, inherited, {
-      title: __args__.title,
+      title: fastn.formula([__args__.title,
+      __args__.title,
+      __args__.captionTitle], function () {
+        if (function () {
+          return (fastn_utils.getStaticValue(__args__.title) == null);
+        }()) {
+          return __args__.title;
+        } else {
+          return __args__.captionTitle;
+        }
+      }
+      ),
       content: fastn.mutableList([function (root, inherited) {
         let rooti0 = xypnox_github_io_spellcraft_ds__section_column(root, inherited, {
           content: fastn.mutableList([function (root, inherited) {
@@ -6360,6 +6373,8 @@ let xypnox_github_io_spellcraft_ds__page = global["fastn_community_github_io_des
 global["xypnox_github_io_spellcraft_ds__page"] = xypnox_github_io_spellcraft_ds__page;
 let fastn_community_github_io_design_system__page = global["fastn_community_github_io_design_system_foundation_elements_page__page"];
 global["fastn_community_github_io_design_system__page"] = fastn_community_github_io_design_system__page;
+let xypnox_github_io_spellcraft_starter_lib__page = global["xypnox_github_io_spellcraft_components_page__page"];
+global["xypnox_github_io_spellcraft_starter_lib__page"] = xypnox_github_io_spellcraft_starter_lib__page;
 let xypnox_github_io_spellcraft_lib__page = global["xypnox_github_io_spellcraft_components_page__page"];
 global["xypnox_github_io_spellcraft_lib__page"] = xypnox_github_io_spellcraft_lib__page;
 fastn_dom.codeData.availableThemes["coldark-theme.dark"] = "code-theme-9A3284FD117DFF7CFD432FF860A5E14169FA592BC3DA4F5E8A6975143F5EA07F.css";
